@@ -8,8 +8,14 @@ export const Grid = () => {
   return (
     <div className="Grid">
       {grid.map((row) => {
-        return row.map((tile) => (
-          <Tile terrain={tile[0]} tower={tile[1]} enemy={tile[2]} position={tile[3]} />
+        return row.map((tile, index) => (
+          <Tile
+            terrain={tile[0]}
+            tower={tile[1]}
+            enemy={tile[2]}
+            position={tile[3]}
+            key={index}
+          />
         ));
       })}
     </div>

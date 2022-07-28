@@ -6,7 +6,6 @@ import {
   setTerrain,
   togglePlaceMode,
 } from "../../store/gameStateSlice";
-import { spawnEnemy } from "../../store/gridSlice";
 
 export const GameMenu = ({ handleNextPhase }) => {
   const dispatch = useDispatch();
