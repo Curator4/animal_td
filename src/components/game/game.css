@@ -1,0 +1,9 @@
+.Game {
+  display: inline-flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.baseHint {
+  position: absolute;
+  margin: 2rem 19rem 0rem;
+}

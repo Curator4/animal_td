@@ -1,0 +1,70 @@
+.gameMenu {
+  margin: 0 auto;
+}
+.gameMenu-turnMenu {
+  margin-bottom: 2rem;
+}
+.underline {
+  text-decoration: underline;
+}
+.gameMenu-placementMenu {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+.gameMenu-placementMenu-towerMenu-placeTowers {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.place {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  min-width: 15rem;
+  margin: 1rem auto;
+}
+.place-tile {
+  display: flex;
+  justify-content: baseline;
+  width: 100%;
+  min-width: 15rem;
+  margin: 1rem auto;
+}
+.place img {
+  width: 4rem;
+  height: auto;
+}
+.place button {
+  margin: auto 0;
+}
+.placementMenu-tile {
+  width: 70px;
+  height: 70px;
+}
+.place-tile button {
+  margin: auto auto;
+}
+.gameMenu-exit {
+  margin-top: 2rem;
+}
+span {
+  margin: auto 2rem;
+}
+.stats {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0;
+  padding: 0 0;
+}
+.stats h3 {
+  margin: 0 0;
+}
+.statline {
+  display: flex;
+  flex-direction: row;
+}
+.statline p {
+  margin: 0.05rem 0.25rem;
+  font-size: 0.5rem;
+}

@@ -1,0 +1,39 @@
+.mountain {
+  background-color: darkgrey;
+}
+
+.field {
+  background-color: greenyellow;
+}
+
+.forest {
+  background-color: forestgreen;
+}
+
+.hill {
+  background-color: lightgrey;
+}
+.path {
+  background-color: red;
+}
+.range {
+  background-color: blue;
+}
+.base {
+  background-color: black;
+}
+.tower {
+  width: 60%;
+  margin-top: 1rem;
+}
+.enemy {
+  width: 80%;
+  margin: 0.1rem auto 0rem;
+}
+.health {
+  position: static;
+  z-index: 1;
+  font-size: 0.6em;
+  text-align: center;
+  margin: 0 0;
+}

@@ -1,0 +1,7 @@
+.Grid {
+  display: grid;
+  grid-template-columns: repeat(10, 70px);
+  grid-template-rows: repeat(10, 70px);
+  margin: 1rem;
+  gap: 1px;
+}
